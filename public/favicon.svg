@@ -1,0 +1,17 @@
+<svg
+  xmlns='http://www.w3.org/2000/svg'
+  width='24'
+  height='24'
+  fill='none'
+  stroke='#11de0d'
+  stroke-linecap='round'
+  stroke-linejoin='round'
+  stroke-width='2'
+  viewBox='0 0 24 24'
+  >
+  <path
+    stroke='none'
+    d='M0 0h24v24H0z'
+    />
+  <path d='M6 18v-3m4 3v-6m4 6v.01m4-.01v.01'/>
+</svg>
