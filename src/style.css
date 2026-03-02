@@ -219,6 +219,74 @@ input[type="color"]::-webkit-color-swatch {
   }
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ui-overlay {
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+
+  header {
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+  }
+
+  .controls {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    width: auto;
+    max-width: 90vw;
+  }
+
+  .control-group {
+    flex: 0 1 auto;
+  }
+
+  input[type="range"] {
+    width: 80px;
+  }
+
+  .button {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.75rem;
+  }
+
+  #controls-panel.minimized {
+    transform: translateY(-90%) scale(0.6);
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .controls {
+    gap: 0.8rem;
+    padding: 0.8rem 1.2rem;
+  }
+
+  .control-group label {
+    font-size: 0.6rem;
+  }
+  
+  .status {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
