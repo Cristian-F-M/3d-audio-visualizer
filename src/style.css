@@ -197,8 +197,7 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 .status {
-	position: absolute;
-	bottom: 2rem;
+  margin-top: 5px;
 	font-size: 0.8rem;
 	opacity: 0.4;
 	letter-spacing: 0.1em;
